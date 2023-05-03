@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('/dybalajuventus.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* padding: 3px 0; */
+}
+.leftSide{
+    flex: 1;
+    display: flex;
+}
+.threedotbar{
+    margin-left: 12px;
+    margin-top: 20px;
+}
+.leftSide hr{
+    margin-left: 12px;
+}
+.leftSide-links{
+    display: flex;
+    list-style: none;
+    margin-left: 50px;
+}
+.leftSide-links li{
+    margin-top: 22px;
+    margin-left: 22px;
+}
+.leftSide .menuicon{
+    margin-left: 32px;
+}
+.center{
+    flex: 1;
+    text-align: center;
+    margin-top: 12px;
+    /* background-color: sienna; */
+}
+.rightSide{
+    flex: 1;
+    display: flex;
+    /* background-color: royalblue; */
+}
+.cpny-logo{
+    display: flex;
+    font-size: 35px;
+    background-color: #fff;
+    height: 100%;
+}
+.cpny-logo img{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.cpny-logo a{
+    /* margin-top: -15px; */
+    margin-right: 32px;
+}
+.rightSide-links{
+    display: flex;
+    margin-left: 110px;
+
+}
+.rightSide-links li{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.heading h1{
+    color: #fff;
+    font-weight: 800;
+    font-size: 60px;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-style: normal;
+}
+.heading h2{
+    font-size: 53px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.centerpage{
+    margin-top: 350px;
+    width: 80%;
+    height: 122vh;
+    background-color: #fff;
+    background-position: 100%;
+}
+.centerpage h1{
+    margin-left: 25px;
+    font-size: 20px;
+    color: #857650;;
+    line-height: inherit;
+}
+h2{
+    color: #151515;
+    margin-left: 25px;
+    font-size: 63px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.secondhead{
+    margin-top: 32px;
+}
+.mainpone{
+    font-size: 20px;
+    align-items: center;
+    margin-top: 55px;
+    margin-left: 225px;
+}
+.mainptwo{
+    font-size: 20px;
+    align-items: center;
+    margin-top: 55px;
+    margin-left: 225px;
+}
+.pimage{
+    text-align: center;
+    margin-top: 35px;
+}
+.moreitems{
+    margin-top: 50px;
+    margin-left: 200px;
+    font-size: 30px;
+}
+.threeimg{
+    display: flex;
+}
+.threeimg li{
+    margin-top: -1px;
+    list-style: none;
+    width: 100%;
+
+}
+.threeimg{
+    display: flex;
+    position: relative;
+}
+.imagefirst{
+    width: 33%;
+    height: 75vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,.5)), url(/ocbohcie4qmkggexaeca.jpg);
+}
+.imagefirst h4{
+    color: #fff;
+    font-size: 28px;
+    position: absolute;
+    top: 320px;
+    left: 29px;
+}
+.imagesecond{
+    width: 33%;
+    height: 75vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/h7znxhjiruft35wczlw2.jpg);
+    position: relative;
+}
+.imagesecond h4{
+    color: #fff;
+    font-size: 28px;
+    position: absolute;
+    top: 320px;
+    left: 29px;
+}
+.imagethird{
+    width: 34%;
+    height: 75vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(cec9d2vmxh1bz8lzb43p.jpg);
+    position: relative;
+}
+.imagethird h4{
+    color: #fff;
+    font-size: 28px;
+    position: absolute;
+    top: 320px;
+    left: 29px;
+}
+
+/* footer */
+
+footer{
+    background-color: #000;
+}
+.leftside img{
+    margin-top: 35px;
+    margin-left: 35px;
+    width: 3%;
+}
+.rightside li{
+    
+}
+.lastf{
+    display: flex;
+    margin-left: 30px;
+}
+.lastf h4{
+    margin-top: 75px;
+    margin-left: 40px;
+    font-size: 20px;
+    color: #fff;
+}
+.lastf ul{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.lastf li{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 13px;
+    list-style: none;
+}
+.lastf li a{
+    color: #938989;
+}
